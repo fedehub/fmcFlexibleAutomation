@@ -11,7 +11,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -184,7 +183,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -217,17 +216,14 @@ Project Link: [https://github.com/fedehub/fmcFlexibleAutomation](https://github.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/fedehub/fmcFlexibleAutomation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+
+
+[forks-shield]: 	https://img.shields.io/github/forks/fedehub/fmcFlexibleAutomation
 [forks-url]: https://github.com/fedehub/fmcFlexibleAutomation/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: 	https://img.shields.io/github/stars/fedehub/fmcFlexibleAutomation
 [stars-url]: https://github.com/fedehub/fmcFlexibleAutomation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: 	https://img.shields.io/github/issues/fedehub/fmcFlexibleAutomation
 [issues-url]: https://github.com/fedehub/fmcFlexibleAutomation/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/fedehub/fmcFlexibleAutomation/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[product-screenshot]: images/screenshot.png
-[industrial-cell]: https://github.com/fedehub/fmcFlexibleAutomation/images/industrial-cell.png
-[md]: https://github.com/fedehub/fmcFlexibleAutomation/images/RRP_manipulator.png
+[license-shield]: https://img.shields.io/github/license/fedehub/fmcFlexibleAutomation
+[industrial-cell]: https://github.com/fedehub/fmcFlexibleAutomation/blob/main/images/industrial-cell.png
+[md]: https://github.com/fedehub/fmcFlexibleAutomation/blob/main/images/RRP_manipulator.png
