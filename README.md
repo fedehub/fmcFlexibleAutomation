@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/fedehub/fmcFlexibleAutomation">
-    <img src="images/logo-black.png" alt="Logo" width="80" height="80">
+    <img src="images/logo-black.png" alt="Logo" width="200" height="100">
   </a>
 
   <h3 align="center">Flexible automation course</h3>
@@ -87,9 +87,12 @@ Our task was to design a flexible manufacturing cell (FMC) with robot centered l
 The design should handle the requirements below:
 
 - [ ] Plant layout simulation
-- [x] robot simulation
+- [ ] Robot simulation
 - [ ] Analysis and optimization of the cell
 - [ ] Report delivery
+
+Please refer to #roadmap 
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -156,13 +159,27 @@ Its charachteristichs are briefly shown in the image above
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] build manipulator model
-- [x] Set up the industrial cell environment
-- [x] Configure the conveyors
-  - [x] place them
-  - [x] save measures
-- [ ] Integrate the manipulator model into the Industrial cell scene 
-  - [ ] check the measures 
+- [ ] Plant Layout design and simulation
+  - [x] Import the parts model provided as mesh
+  - [x] Based on the size of the parts, setupt the conveyors
+  - [ ] Set up the floor shop like adding enclosures, modifying the visual aspects
+  - [ ] Programming part
+    - [ ] Program the motion of the conveyor
+    - [ ] Program the conveyor to spawn one of the three parts, randomly
+- [x] Robot Simulation
+  - [x] Based on your requirement of worksapce, select a type of mechanism
+  - [x] Draw the schematic representation
+  - [x] Using OOPs strategy, assemble your mechanism in CoppeliaSim
+  - [x] Choose an appropriate gripper for all three parts (implement tool change if necessary)
+  - [ ] Implement the Inverse kinematics using the built in simIK API
+  - [ ] Implement **pick and place** logic, by using trajectory planning
+  - [ ] Extend the logic above to pick the part and place  it in the right conveyor 
+- [ ]Analysis and Optimization of the cell 
+  - [ ] Ability to supply multiple vendors at the same time
+  - [ ] Fully automated solution
+  - [ ] Flexible in terms of Volune and mix product handling 
+  - [ ] Zero-defect product 
+ 
     
 
 See the [open issues](https://github.com/fedehub/fmcFlexibleAutomation/issues) for a full list of proposed features (and known issues).
@@ -213,6 +230,7 @@ Project Link: [https://github.com/fedehub/fmcFlexibleAutomation](https://github.
 * [Object Interactions](https://www.coppeliarobotics.com/helpFiles/en/designingDynamicSimulations.htm )
 * [LUA manual reference](https://www.lua.org/manual/5.1/manual.html )
 * [IDE](https://studio.zerobrane.com/)
+* [Model of the engine parts](https://unigeit.sharepoint.com/sites/FLEXIBLEAUTOMATION2021/Documenti%20condivisi/Forms/AllItems.aspx?csf=1&web=1&e=B9YCQ1&cid=8d0e7acd%2D3a08%2D44ff%2Dad05%2D90045121c883&RootFolder=%2Fsites%2FFLEXIBLEAUTOMATION2021%2FDocumenti%20condivisi%2FModelForSimulationAssignment&FolderCTID=0x0120005FAF8D3B79DED14186C695672F8E587E)
 
 
 
