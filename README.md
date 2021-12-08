@@ -14,7 +14,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
 
 
 
@@ -135,10 +135,16 @@ There are **no** specific requirements, other than:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-In the sketches below you can find the general design of my ![industrial cell][industrial-cell]
 
-Since we were asked to make it "robot-centerd", all the conveyors have been placed accordingly, around the ![manipulator][md]. Its charachteristichs are briefly shown in the image above
+In the sketches below you can find the general design of my industrial cell 
+
+![industrial cell][industrial-cell]
+
+Since we were asked to make it "robot-centerd", all the conveyors have been placed accordingly, around the manipulator
+
+![manipulator][md] 
+
+Its charachteristichs are briefly shown in the image above
 
 > Please, refer to the Docs folder for accessing the files containing all the skethces 
 
