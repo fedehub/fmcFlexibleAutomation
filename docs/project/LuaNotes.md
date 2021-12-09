@@ -1,8 +1,20 @@
 # Lua programming language
 
-<!-- toc -->
+Some hints form *Roberto Ierusalimsch*y tutorial and a small collection of snippets collected during the **lectures**
+- [Lua programming language](#lua-programming-language)
+  - [Chunks](#chunks)
+  - [Global variables](#global-variables)
+  - [Local variables](#local-variables)
+  - [About lexical conventions](#about-lexical-conventions)
+  - [Commenting](#commenting)
+  - [Types and values](#types-and-values)
+    - [Type function](#type-function)
+  - [Repeat](#repeat)
+  - [Errors](#errors)
+  - [Error Handling and Exceptions](#error-handling-and-exceptions)
+- [Professor's snippets](#professors-snippets)
 
-(Some hints form Roberto Ierusalimschy tutorial)
+
 
 ## Chunks
 
@@ -401,7 +413,7 @@ for i=1,3,1 do
 end 
 ```
 
-* Fifth snippet: arrays and struct
+* **Fifth snippet**: *arrays and struct*
 
 ```Lua
 -- Power of table
