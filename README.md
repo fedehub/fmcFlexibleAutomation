@@ -86,8 +86,8 @@ A car engine parts manufacturer approaches you seeking a robotic *automated solu
 Our task was to design a flexible manufacturing cell (FMC) with robot centered layout for the above function. 
 The design should handle the requirements below:
 
-- [ ] Plant layout simulation
-- [ ] Robot simulation
+- [x] Plant layout simulation
+- [x] Robot simulation
 - [ ] Analysis and optimization of the cell
 - [ ] Report delivery
 
@@ -163,16 +163,16 @@ Its charachteristichs are briefly shown in the image above
   - [x] Import the parts model provided as mesh
   - [x] Based on the size of the parts, setupt the conveyors
   - [ ] Set up the floor shop like adding enclosures, modifying the visual aspects
-  - [ ] Programming part
-    - [ ] Program the motion of the conveyor
-    - [ ] Program the conveyor to spawn one of the three parts, randomly
+  - [x] Programming part
+    - [x] Program the motion of the conveyor
+    - [x] Program the conveyor to spawn one of the three parts, randomly
 - [x] Robot Simulation
   - [x] Based on your requirement of worksapce, select a type of mechanism
   - [x] Draw the schematic representation
   - [x] Using OOPs strategy, assemble your mechanism in CoppeliaSim
   - [x] Choose an appropriate gripper for all three parts (implement tool change if necessary)
-  - [ ] Implement the Inverse kinematics using the built in simIK API
-  - [ ] Implement **pick and place** logic, by using trajectory planning
+  - [x] Implement the Inverse kinematics using the built in simIK API
+  - [x] Implement **pick and place** logic, by using trajectory planning
   - [ ] Extend the logic above to pick the part and place  it in the right conveyor 
 - [ ]Analysis and Optimization of the cell 
   - [ ] Ability to supply multiple vendors at the same time
